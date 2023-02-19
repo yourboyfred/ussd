@@ -8,7 +8,7 @@ $text        = $_POST["text"];
 
 if ($text == "") {
     // This is the first request. Note how we start the response with CON
-    $response  = "CON Welcome to PROFTIKA VENTURES \n";
+    $response  = "CON Welcome to PROFTIKA session1 VENTURES \n";
     $response .= "1. Get loan \n";
     $response .= "2. Pay loan \n";
     $response .= "3. Loan balance \n";
