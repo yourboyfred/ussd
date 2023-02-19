@@ -12,7 +12,7 @@ if ($text == "") {
     $response .= "1. Get loan \n";
     $response .= "2. Pay loan \n";
     $response .= "3. Loan balance \n";
-    $response .= "4. Terms and Conditions";
+   
 
 
 } else if ($text == "1") {
