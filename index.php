@@ -1,9 +1,9 @@
 <?php
 // Read the variables sent via POST from our API
 $sessionId   = $_POST["sessionId"];
-$serviceCode = $_POST["serviceCode"];
-$phoneNumber = $_POST["phoneNumber"];
-$text        = $_POST["text"];
+$service_code = $_POST["service_code"];
+$mobile_number = $_POST["mobile_number"];
+$message        = $_POST["message"];
 
 
 if ($text == "") {
